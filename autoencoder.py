@@ -284,7 +284,7 @@ if __name__ == "__main__":
 	parser.add_argument('--lr', type=float, default=0.2, help='Learning rate')
 	parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
 	parser.add_argument('--regularizer', type=float, default=0.001, help='regularizer')
-	parser.add_argument('--mini-batch-size', type=int, default=100, help='Minibatch size for RBM training')
+	parser.add_argument('--mini-batch-size', type=int, default=100, help='Minibatch size for autoencoder training')
 	parser.add_argument('--epoch', type=int, default=20, help='Number of epochs to train')
 	parser.add_argument('--denoising', action='store_true', help='Trains an MLP calissifier with unsupervised pretraining')
 	parser.add_argument('--train_classifier', action='store_true', help='Trains an MLP calissifier with unsupervised pretraining')
